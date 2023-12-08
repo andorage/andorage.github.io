@@ -1,0 +1,144 @@
+*{                             /*1.универсальный селектор*/
+    margin: 0;
+    padding: 0;
+}
+header {                      /*2.селектор элементов*/
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 30px;
+}
+
+h1 {                          /*2.селектор элементов*/
+    position: absolute;
+}
+nav {                         /*2.селектор элементов*/
+    margin: auto;
+    background:rgba(219, 213, 213, 0.3);
+    background-size: 40px;
+    border-radius: 30px;
+    padding: 20px 0 20px 45px;
+}
+nav > a[href]{                 /*3.селектор атрибутов*/
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: larger;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    transition: 0.1s linear;
+}
+nav > a[href]:hover{          /*4.селектор псевдоклассов*/
+    color: #ff2a00;
+}
+footer{
+    margin-bottom: 50px;
+    margin-top: 1700px;
+    display: flex;
+    justify-content: center;
+}
+h2.title{                     /*5.селектор дочерних элементов*/
+    font-size: 30px;
+    color: #5a5a5a;
+    text-align: center;
+    margin-top: 70px;
+}
+h2.title:before {
+    content: '';
+    display: block;
+    height: 2px; 
+    background: #ff2a00;
+    width: 320px;
+    margin: 0 auto 10px;
+	transition: 0.5s;
+}
+h2.title:hover:before {
+    width: 550px;
+	transition: ease-out 0.5s;
+}
+h2.title:after {
+    content: '';
+    display: block;
+    height: 2px;
+    background: #ff2a00;
+    width: 450px;
+    margin: 10px auto 0;
+	transition: 0.5s;
+}
+h2.title:hover:after {  
+    width: 550px;
+	transition: ease-out 0.5s;
+}
+main > p1{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+    font-size: 25px;
+    font-family: 'Play', sans-serif;
+    color: #362858;
+    max-width: 400px;
+    border: 3px rgba(222, 95, 118, 1) solid;
+    border-radius: 14px;
+    padding: .5em 2em;
+}
+p1::first-letter {
+    font-size: 52px;
+    color: rgba(222, 95, 118, 1);
+}
+main > p2{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 610px;
+    font-size: 25px;
+    font-family: 'Play', sans-serif;
+    color: #362858;
+    max-width: 400px;
+    border: 3px rgba(222, 95, 118, 1) solid;
+    border-radius: 14px;
+    padding: .5em 2em;
+}
+main > p3{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 1120px;
+    font-size: 25px;
+    font-family: 'Play', sans-serif;
+    color: #362858;
+    max-width: 400px;
+    border: 3px rgba(222, 95, 118, 1) solid;
+    border-radius: 14px;
+    padding: .5em 2em;
+}
+main > p4{
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 610px;
+    font-size: 25px;
+    font-family: 'Play', sans-serif;
+    color: #362858;
+    max-width: 400px;
+    border: 3px rgba(222, 95, 118, 1) solid;
+    border-radius: 14px;
+    padding: .5em 2em;
+}
+main > p5{
+    position: absolute;
+    margin-top: 1140px;
+    margin-left: 100px;
+    font-size: 35px;
+    font-family: 'Play', sans-serif;
+    color: #ffffff;
+    background-color: rgba(222, 95, 118, 1);
+    max-width: 500px;
+    border: 3px rgba(222, 95, 118, 1) solid;
+    border-radius: 14px;
+    padding: .5em 2em;
+}
+.forma1{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 100px;}
+.forma2{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 1200px;}

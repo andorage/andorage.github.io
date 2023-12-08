@@ -1,0 +1,173 @@
+*{                             /*1.универсальный селектор*/
+    margin: 0;
+    padding: 0;
+}
+header {                      /*2.селектор элементов*/
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 30px;
+}
+
+h1 {                          /*2.селектор элементов*/
+    position: absolute;
+}
+nav {                         /*2.селектор элементов*/
+    margin: auto;
+    background:rgba(219, 213, 213, 0.3);
+    background-size: 40px;
+    border-radius: 30px;
+    padding: 20px 0 20px 45px;
+}
+nav > a[href]{                 /*3.селектор атрибутов*/
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: larger;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    transition: 0.1s linear;
+}
+nav > a[href]:hover{          /*4.селектор псевдоклассов*/
+    color: #ff2a00;
+}
+footer{
+    margin-bottom: 50px;
+    margin-top: 3000px;
+    display: flex;
+    justify-content: center;
+}
+.tovar1{
+    position: absolute;
+    border: 1px black linear;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+h2{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 1050px;
+    font-size: 40px;
+    max-width: 700px;
+}
+p1{
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 1050px;
+    font-size: 25px;
+    max-width: 400px;
+}
+h3{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 1050px;
+    font-size: 40px;
+    max-width: 600px;
+}
+p2{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 1050px;
+    font-size: 25px;
+    max-width: 600px;
+}
+h4{
+    position: absolute;
+    margin-top: 740px;
+    margin-left: 700px;
+    font-size: 40px;
+    max-width: 600px;
+}
+.tovar11{
+    position: absolute;
+    border: 1px black linear;
+    border-radius: 15px;
+    margin-top: 900px;
+    margin-left: 300px;
+}
+h5{
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 1050px;
+    font-size: 40px;
+    max-width: 600px;
+}
+p3{
+    position: absolute;
+    margin-top: 1030px;
+    margin-left: 1050px;
+    font-size: 25px;
+    max-width: 600px;
+}
+p4{
+    position: absolute;
+    margin-top: 1130px;
+    margin-left: 1050px;
+    font-size: 25px;
+    max-width: 600px;
+}
+p5{
+    position: absolute;
+    margin-top: 1230px;
+    margin-left: 1050px;
+    font-size: 25px;
+    max-width: 600px;
+}
+h6{
+    position: absolute;
+    padding: .5em 2em;
+    border: 2px rgb(0, 0, 0) solid;
+    background-color: rgba(222, 95, 118, 1) ;
+    color: white ;
+    border-radius: 15px;
+    max-width: 350px;
+    font-size: 25px;
+    margin-top: 1400px;
+    margin-left: 300px;
+}
+h7{
+    position: absolute;
+    padding: .5em 2em;
+    border: 2px rgb(0, 0, 0) solid;
+    background-color: rgba(222, 95, 118, 1) ;
+    color: white;
+    border-radius: 15px;
+    max-width: 350px;
+    font-size: 25px;
+    margin-top: 1400px;
+    margin-left: 800px;
+}
+h8{
+    position: absolute;
+    padding: .5em 2em;
+    padding-bottom: 40px;
+    border: 2px rgb(0, 0, 0) solid;
+    background-color: rgba(222, 95, 118, 1) ;
+    color: white;
+    border-radius: 15px;
+    max-width: 350px;
+    font-size: 25px;
+    margin-top: 1400px;
+    margin-left: 1300px;
+}
+.button1{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 800px;
+}
+a.button1 {
+    color: #362858;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 1px rgb(148, 144, 144) solid;
+    border-radius: 7px;
+    transition: 0.2s;
+  } 
+  a.button1:hover { 
+    background: rgba(222, 95, 118, 1);
+    color: white;}
