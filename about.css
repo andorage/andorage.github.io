@@ -31,12 +31,6 @@ nav > a[href]{                 /*3.селектор атрибутов*/
 nav > a[href]:hover{          /*4.селектор псевдоклассов*/
     color: #ff2a00;
 }
-footer{
-    margin-bottom: 50px;
-    margin-top: 1700px;
-    display: flex;
-    justify-content: center;
-}
 h2.title{                     /*5.селектор дочерних элементов*/
     font-size: 30px;
     color: #5a5a5a;
@@ -142,3 +136,30 @@ main > p5{
     position: absolute;
     margin-top: 80px;
     margin-left: 1200px;}
+    .footer{
+        text-align: center;
+        margin-top: 1600px;
+        background: #080710;
+        padding: 30px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .footer .row{
+        width: 100%;
+        margin: 1% 0%;
+        color: gray;
+        font-size: 20px;
+    }
+    .footer .row a{
+        text-decoration: none;
+        color: gray;
+        transition: 0.5s;
+    }
+    .footer .row a:hover{
+        color: #fff;
+    }
+    .footer .row ul{
+        width: 100%;
+    }
+    .footer .row ul li{
+    display: inline-block;
+    }

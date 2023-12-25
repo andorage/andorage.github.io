@@ -31,12 +31,6 @@ nav > a[href]{                 /*3.селектор атрибутов*/
 nav > a[href]:hover{          /*4.селектор псевдоклассов*/
     color: #ff2a00;
 }
-footer{
-    margin-bottom: 50px;
-    margin-top: 3000px;
-    display: flex;
-    justify-content: center;
-}
 .tovar1{
     position: absolute;
     border: 1px black linear;
@@ -48,22 +42,25 @@ h2{
     position: absolute;
     margin-top: 100px;
     margin-left: 1050px;
-    font-size: 40px;
+    font-size: 35px;
     max-width: 700px;
+    font-family: Courier New, monospace;
 }
 p1{
     position: absolute;
-    margin-top: 210px;
+    margin-top: 190px;
     margin-left: 1050px;
     font-size: 25px;
     max-width: 400px;
+    font-family: 'Play', sans-serif;
 }
 h3{
     position: absolute;
-    margin-top: 280px;
+    margin-top: 310px;
     margin-left: 1050px;
-    font-size: 40px;
+    font-size: 35px;
     max-width: 600px;
+    font-family: Courier New, monospace;
 }
 p2{
     position: absolute;
@@ -71,6 +68,7 @@ p2{
     margin-left: 1050px;
     font-size: 25px;
     max-width: 600px;
+    font-family: 'Play', sans-serif;
 }
 h4{
     position: absolute;
@@ -78,6 +76,7 @@ h4{
     margin-left: 700px;
     font-size: 40px;
     max-width: 600px;
+    font-family: Courier New, monospace;
 }
 .tovar11{
     position: absolute;
@@ -90,8 +89,9 @@ h5{
     position: absolute;
     margin-top: 900px;
     margin-left: 1050px;
-    font-size: 40px;
+    font-size: 35px;
     max-width: 600px;
+    font-family: Courier New, monospace;
 }
 p3{
     position: absolute;
@@ -99,6 +99,7 @@ p3{
     margin-left: 1050px;
     font-size: 25px;
     max-width: 600px;
+    font-family: 'Play', sans-serif;
 }
 p4{
     position: absolute;
@@ -106,6 +107,7 @@ p4{
     margin-left: 1050px;
     font-size: 25px;
     max-width: 600px;
+    font-family: 'Play', sans-serif;
 }
 p5{
     position: absolute;
@@ -113,6 +115,7 @@ p5{
     margin-left: 1050px;
     font-size: 25px;
     max-width: 600px;
+    font-family: 'Play', sans-serif;
 }
 h6{
     position: absolute;
@@ -125,6 +128,7 @@ h6{
     font-size: 25px;
     margin-top: 1400px;
     margin-left: 300px;
+    font-family: 'Play', sans-serif;
 }
 h7{
     position: absolute;
@@ -137,6 +141,7 @@ h7{
     font-size: 25px;
     margin-top: 1400px;
     margin-left: 800px;
+    font-family: 'Play', sans-serif;
 }
 h8{
     position: absolute;
@@ -150,6 +155,7 @@ h8{
     font-size: 25px;
     margin-top: 1400px;
     margin-left: 1300px;
+    font-family: 'Play', sans-serif;
 }
 .button1{
     position: absolute;

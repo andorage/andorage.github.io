@@ -1,0 +1,172 @@
+*{                             /*1.универсальный селектор*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+header {                      /*2.селектор элементов*/
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 30px;
+}
+
+h1 {                          /*2.селектор элементов*/
+    position: absolute;
+}
+nav {                         /*2.селектор элементов*/
+    margin: auto;
+    background:rgba(219, 213, 213, 0.3);
+    background-size: 40px;
+    border-radius: 30px;
+    padding: 20px 0 20px 45px;
+}
+nav > a[href]{                 /*3.селектор атрибутов*/
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: larger;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    transition: 0.1s linear;
+}
+nav > a[href]:hover{          /*4.селектор псевдоклассов*/
+    color: #ff2a00;
+}
+
+
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.background{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+form{
+    height: 520px;
+    width: 400px;
+    background-color: gray;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(192, 186, 186, 0.993);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #e5e5e5;
+}
+button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: rgba(192, 186, 186, 0.993);
+    border: 2px #080710;
+    border-radius: 15px;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #d1bce6;
+    transform: translateY(-2px);}
+.social{
+  margin-top: 30px;
+  display: flex;
+}
+.social div{
+  background: rgba(192, 186, 186, 0.993);
+  width: 150px;
+  border-radius: 15px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(192, 186, 186, 0.993);
+  color: white;
+  text-align: center;
+}
+.social div:hover{
+  background-color: #d1bce6;
+}
+.social .fb{
+  margin-left: 25px;
+}
+.social i{
+  margin-right: 4px;
+}
+#password, #username{
+    border: 2px #000000;
+    border-radius: 15px;
+}
+*{                             
+    margin: 0;
+}
+.footer{
+    text-align: center;
+    margin-top: 800px;
+    background: #080710;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer .row{
+    width: 100%;
+    margin: 1% 0%;
+    color: gray;
+    font-size: 20px;
+}
+.footer .row a{
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+.footer .row a:hover{
+    color: #fff;
+}
+.footer .row ul{
+    width: 100%;
+}
+.footer .row ul li{
+display: inline-block;
+}

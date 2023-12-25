@@ -120,9 +120,30 @@ nav > a[href]{                 /*3.селектор атрибутов*/
 nav > a[href]:hover{          /*4.селектор псевдоклассов*/
     color: #ff2a00;
 }
-footer{
-    margin-bottom: 100px;
-    margin-top: 550px;
-    display: flex;
-    justify-content: center;
+.footer{
+  text-align: center;
+  margin-top: 100px;
+  background: #080710;
+  padding: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.footer .row{
+  width: 100%;
+  margin: 1% 0%;
+  color: gray;
+  font-size: 20px;
+}
+.footer .row a{
+  text-decoration: none;
+  color: gray;
+  transition: 0.5s;
+}
+.footer .row a:hover{
+  color: #fff;
+}
+.footer .row ul{
+  width: 100%;
+}
+.footer .row ul li{
+display: inline-block;
 }

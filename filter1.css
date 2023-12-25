@@ -66,13 +66,6 @@ h2.title:hover:after {
 }
 
 
-
-footer{
-    margin-bottom: 100px;
-    margin-top: 550px;
-    display: flex;
-    justify-content: center;
-}
 main{
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

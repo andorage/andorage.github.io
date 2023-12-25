@@ -31,12 +31,6 @@ nav > a[href]{                 /*3.селектор атрибутов*/
 nav > a[href]:hover{          /*4.селектор псевдоклассов*/
     color: #ff2a00;
 }
-footer{
-    margin-bottom: 50px;
-    margin-top: 3000px;
-    display: flex;
-    justify-content: center;
-}
 .forma{
     position: absolute;
     margin-top: 100px;
